@@ -9,7 +9,7 @@ publish = false
 [dependencies]
 egui.workspace = true
 
-taffy = "0.3.16"
+taffy = { git = "https://github.com/DioxusLabs/taffy", branch = "main" }
 
 [dev-dependencies]
 eframe = {workspace = true, default-features = true}
